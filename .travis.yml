@@ -6,7 +6,7 @@ python:
 install: 
    - pip3 install --upgrade pip 
    - pip3 install coveralls
-   - pip3 install lcov-parse
+   - npm install lcov-parse
 
 script: 
  python3 test.py
